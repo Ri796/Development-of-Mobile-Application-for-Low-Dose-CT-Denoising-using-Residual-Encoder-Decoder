@@ -1,7 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 fastapi
 uvicorn
 python-multipart
-torch
+# Force CPU version explicitly
+torch==2.1.2+cpu
 numpy
 pydicom
 Pillow
